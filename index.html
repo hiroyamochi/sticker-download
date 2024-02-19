@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sticker Download</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script src="jszip.min.js"></script>
+  <script src="script.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>LINEスタンプダウンローダー</h1>
+    <label for="url">LINEスタンプのURLを入力してください:</label>
+    <input type="text" id="url" />
+    <button onclick="downloadStickers()">ダウンロード</button>
+    <div id="error-message"></div>
+    <div id="success-message" style="display: none;">ダウンロードが完了しました。</div>
+  </div>
+</body>
+</html>
