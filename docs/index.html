@@ -8,12 +8,19 @@
 </head>
 <body>
   <div class="container">
-    <h1>LINEスタンプダウンローダー</h1>
+    <h1>LINE Sticker Downloader</h1>
     <label for="url">LINEスタンプのURLを入力してください:</label>
     <input type="text" id="url" />
     <button onclick="downloadStickers()">ダウンロード</button>
     <div id="error-message"></div>
     <div id="success-message" style="display: none;">ダウンロードが完了しました。</div>
+  </div>
+
+  <!-- 使い方の説明 -->
+  <div class="usage">
+    <h2>使い方</h2>
+    <p>1. <a href="https://store.line.me/stickershop/home/general/ja">LINE スタンプショップ</a>からダウンロードしたいスタンプページのURLをコピーする</p>
+    <p>2. URLを貼り付けて「ダウンロード」ボタンをクリックする</p>
   </div>
 </body>
 </html>

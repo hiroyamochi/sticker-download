@@ -49,19 +49,42 @@ button:hover {
 }
 
 #error-message, #success-message {
-  margin-top: 10px;
   padding: 10px;
-  border-radius: 4px;
+  border-radius: 8px;
+  display: none; /* 初期状態では非表示 */
 }
 
 #error-message {
   background-color: #ffcdd2;
   color: #d32f2f;
-  display: none; /* 初期状態では非表示 */
 }
 
 #success-message {
   background-color: #c8e6c9;
   color: #388e3c;
-  display: none; /* 初期状態では非表示 */
+}
+
+/* usage */
+.usage {
+  /* containerクラスのスタイルを継承 */
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #ececec;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  /* 追加のスタイル */
+  border: 1px solid #ccc; /* ボーダーを追加 */
+}
+
+.usage h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.usage p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 5px;
 }
